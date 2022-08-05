@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "title": "la maquina del tiempo",
+    "author": "Herbert George",
+    "genre": "Ciencia Ficcion",
+    "year": "1895",
+    "cost": "100",
+    "price": "200"
+  },
+  {
+    "id": 1,
+    "title": "La Montana de la Locura",
+    "author": "H.P. Lovecraft",
+    "genre": "Ciencia Ficcion",
+    "year": "1936",
+    "cost": "75",
+    "price": "150"
+  }
+]
