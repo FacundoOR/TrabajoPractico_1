@@ -9,8 +9,17 @@
     "price": "200"
   },
   {
-    "id": 1,
-    "title": "La Montana de la Locura",
+    "id": 2,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genre": "Ciencia Ficcion",
+    "year": "1953",
+    "cost": "70",
+    "price": "130"
+  },
+  {
+    "id": 3,
+    "title": "La Montaña de la Locura",
     "author": "H.P. Lovecraft",
     "genre": "Ciencia Ficcion",
     "year": "1936",
