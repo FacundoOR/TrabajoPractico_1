@@ -24,7 +24,7 @@ let edit_short = (id, param1, param2) =>{
             if(elemento.id == id) {   
                    switch(param1){
                         case 'title':
-                         elemento.title = param2
+                         elemento.title = param2  // Ojo la indentacion
                             break;
                         case 'author':
                             elemento.author = param2
@@ -43,7 +43,7 @@ let edit_short = (id, param1, param2) =>{
                             break;
                     }
                 } 
-            return elemento} )
+            return elemento} ) // Ojo la indentacion
           write.write(newArray)
     
 }
