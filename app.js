@@ -15,8 +15,8 @@ switch(process.argv[2]){
         break;
 
     case 'edit':
-        if(process.argv[6]!= null){ 
-            edit.edit_complete(process.argv[3],process.argv[4],process.argv[5],process.argv[6],process.argv[7],process.argv[8],process.argv[9])}
+        if(process.argv[6]!= null){ // Un argumento que no se pasa (que no tiene valor) no es null, es undefined. 
+            edit.edit_complete(process.argv[3],process.argv[4],process.argv[5],process.argv[6],process.argv[7],process.argv[8],process.argv[9])} // Ojo la mala indentación
         else edit.edit_short(process.argv[3],process.argv[4], process.argv[5])    
         break;
 
